@@ -1,6 +1,7 @@
-import Library from '../components/Library'
+import Library from '../components/Library'//no comentar por que tiene la clase del body (Se podria pasar a la de Login)
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Login from '../components/Login'
 
 function App(){
     return(
@@ -13,7 +14,7 @@ function App(){
          */
         <>
             <Header></Header>
-            <Library></Library>
+            <Login></Login>
             <Footer></Footer>
         </>
         
